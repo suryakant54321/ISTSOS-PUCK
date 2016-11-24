@@ -12,7 +12,7 @@ Alpha 0.1.0
 
 It is assumed that ISTSOS 1.1.0 or 2.2.0 is already installed and running.
 
-Only tested in Ubuntu 14.04 with python 2.7, ISTSOS 2.2.0, depends on following
+Only tested in Ubuntu 16.04 with python 2.7, ISTSOS 2.2.0, depends on following
 
 - requests
 
@@ -57,7 +57,7 @@ $ pip install -r requirements.txt
 
 B. Usage of ISTSOS-PUCK
 
-	For now thereis only one script "sosPUCKcreteService.py"
+	For now there is only one script "sosPUCKcreteService.py"
 	Open script in text editor / directly execute using python / ipython
 
 ```sh
