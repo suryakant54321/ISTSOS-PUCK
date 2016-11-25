@@ -20,6 +20,8 @@ Only tested in Ubuntu 16.04 with python 2.7, ISTSOS 2.2.0, depends on following
 
 1. Folder: src
 	- sosPUCKcreteService.py (Create service in ISTSOS using REST 'i.e. walib')
+	- sosPUCKparseSensorML.py (Create service in ISTSOS using existing SensorML)
+
 2. Folder: data
 	- temp_1.DAT (Sample SenseTube data)
 
@@ -63,6 +65,13 @@ B. Usage of ISTSOS-PUCK
 ```sh
 $ python sosPUCKcreteService.py
 ```
+	
+	Configure SensorML file path and other details
+	Example SensorML is located in data folder "temp_1.xml" 
+	
+```sh
+$ python sosPUCKparseSensorML.py
+```
 
 C. For SOS Clients 
 
@@ -76,9 +85,8 @@ To check the successful service configuration using ISTSOS-PUCK.
 
 #### TODO
 
-1. Write .xml parser to access details from existing SensorML
-2. Write plain text based parser to configure ISTSOS service
-
+1. Write plain text based parser to configure ISTSOS service
+2. Test ISTSOS-PUCK on sensing system [SenseTube/KrishiSense]
 
 
 [ISTSOS]: <http://istsos.org/>
