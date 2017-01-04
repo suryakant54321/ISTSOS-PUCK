@@ -207,10 +207,8 @@ def insertObs(url, service, procs, lines):
 url = "http://localhost/istsos"
 service = "test"
 procs = ["temp_2"]#temp_2
-#
-f = "temp_2.DAT"
-file = open(f, 'rU')
-lines = file.readlines()
-insertObs(url, service, procs, lines)
-
-
+# set path to data file
+#f = "temp_2.DAT"
+#file = open(f, 'rU')
+#lines = file.readlines()
+#insertObs(url, service, procs, lines)
